@@ -7,8 +7,7 @@ npm init
 <br/>
 появился файл package.json 
 
-___
-
+<br/>
 теперь создаём файл
 ``` bash
 index.js
@@ -29,7 +28,7 @@ node index.js
 ``` bash
 npm i express
 ```
-после этого в файл index.js вставить 
+после этого в файл index.js вставляем 
 ``` bash
 const express = require('express')
 const app = express()
