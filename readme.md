@@ -15,7 +15,11 @@ index.js
 ```
 и в него для проверки пишем
 ``` bash
-console.log("text")
+console.log("hello world")
+```
+запуск файла осуществляется через команду
+``` bash
+node index.js
 ```
 
 
