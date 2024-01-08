@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 
 // http://localhost:3000/A9
 app.get('/A9', function (req, res) {
-  res.send('9pip9')
+  res.send('9pip9 u')
 })
 
 
