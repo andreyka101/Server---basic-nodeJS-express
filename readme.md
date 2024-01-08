@@ -21,6 +21,7 @@ console.log("hello world")
 ``` bash
 node index.js
 ```
+если в терминале вывелась наше сообщение то сервер работает
 
 
 
