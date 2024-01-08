@@ -11,13 +11,15 @@ app.get('/', function (req, res) {
 app.get('/A9', function (req, res) {
   res.send('9pip9')
 })
+
 // http://localhost:3000/hello/текст
 app.get('/hello/:name', function (req, res) {
   res.send('hello ' + req.params.name)
 })
 
 
-
+// вывод в терминал
 console.log("сервер работает")
 
+// порт
 app.listen(3000)
