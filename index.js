@@ -10,7 +10,11 @@ app.get('/', function (req, res) {
 
 // http://localhost:3000/A9
 app.get('/A9', function (req, res) {
-  res.send('9pip9 u')
+  res.send('9pip9')
+})
+// http://localhost:3000/hello/текст
+app.get('/hello/:name', function (req, res) {
+  res.send('hello ' + req.params.name)
 })
 
 
