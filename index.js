@@ -1,4 +1,3 @@
-console.log("iuytre")
 const express = require('express')
 const app = express()
 
@@ -19,5 +18,6 @@ app.get('/hello/:name', function (req, res) {
 
 
 
+console.log("сервер работает")
 
 app.listen(3000)
