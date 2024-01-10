@@ -1,3 +1,4 @@
+// import express from 'express'
 const express = require('express')
 const app = express()
 
@@ -5,8 +6,9 @@ const app = express()
 // статические файлы
 // поиск файла идет как в проводнике
 // статика должна быть выше написана get set запросов чтоб сервер просканировал всю папку до запроса вдруг запрос требует файл
-// в ссылке папку статических файлов указывать не нужно (дописать)
+// в ссылке папку static_files указывать не нужно
 // http://localhost:3000/img/110435-iskusstvo-graficeskij_dizajn-svet-krasnyj_cvet-art-1920x1080.jpg
+// http://localhost:3000/file/text.txt
 app.use(express.static("static_files"))
 
 
