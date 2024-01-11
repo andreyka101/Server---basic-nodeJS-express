@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "в консоле папки проекта пишем \r ``` bash\r npm init\r ```\r там не обязательно что либо писать это информация о проекте и его создателе",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"

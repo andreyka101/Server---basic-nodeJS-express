@@ -8,6 +8,14 @@ npm init
 <br/>
 появился файл package.json 
 
+в нем после main (5 строка)
+<br/>
+пишем
+
+``` bash
+"type": "module",
+```
+
 <br/>
 теперь создаём файл
 
@@ -70,7 +78,7 @@ npm i express
 после этого в файл index.js вставляем 
 
 ``` bash
-const express = require('express')
+import express from 'express'
 const app = express()
 
 app.get('/', function (req, res) {
